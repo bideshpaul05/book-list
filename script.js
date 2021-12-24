@@ -74,7 +74,7 @@ function resetForm() {
 submitbtn.addEventListener('click', (e) => {
     e.preventDefault()
     if (titleInput.value === '' || pagesInput.value === '' || authorInput.value === '') {
-        alert("what da faq u want mf??")
+        alert("Try again after filling all the sections of form correctly :)")
         return
     }
 
